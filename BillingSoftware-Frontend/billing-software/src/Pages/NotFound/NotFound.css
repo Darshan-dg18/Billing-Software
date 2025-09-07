@@ -1,0 +1,50 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0d0d0d;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.not-found-content {
+  max-width: 500px;
+  padding: 20px;
+}
+
+.not-found-title {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #fd0000;
+  margin: 0;
+}
+
+.not-found-subtitle {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  color: #f8f9fa;
+}
+
+.not-found-message {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #b5b5b5;
+}
+
+.not-found-button {
+  padding: 10px 22px;
+  background: #1804ce;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.not-found-button:hover {
+  background: #ffcd39;
+}

@@ -40,7 +40,7 @@ const Explore = () => {
         <hr className="my-3 text-light" />
         <div
           className="cart-items-container"
-          style={{ height: "55%", overflowY: "auto" }}
+          style={{ height: "40%", overflowY: "auto" }}
         >
           <CartItems />
         </div>

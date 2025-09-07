@@ -217,7 +217,7 @@ const CartSummary = ({
         </button>
       </div>
 
-      <div className="d-flex gap-3 mt-3">
+      <div className="d-flex gap-3 mt-2">
         <button
           className="btn btn-warning flex-grow-1"
           onClick={placeOrder}
